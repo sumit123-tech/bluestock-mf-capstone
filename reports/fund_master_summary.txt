@@ -1,0 +1,35 @@
+Fund Master Exploration Summary
+
+Total Fund Houses: 10
+Total Categories: 2
+Total Sub-Categories: 12
+Total Risk Categories: 5
+
+Fund Houses:
+SBI Mutual Fund
+HDFC Mutual Fund
+ICICI Prudential MF
+Nippon India MF
+Kotak Mahindra MF
+Axis Mutual Fund
+Aditya Birla Sun Life MF
+UTI Mutual Fund
+Mirae Asset MF
+DSP Mutual Fund
+
+Categories:
+Equity
+Debt
+
+Risk Categories:
+Low
+Moderate
+High
+Moderately High
+Very High
+
+Observations:
+- Equity funds dominate the dataset.
+- Both Direct and Regular plans are available.
+- Risk levels range from Low to Very High.
+- Data appears consistent with no obvious anomalies.

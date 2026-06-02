@@ -1,0 +1,14 @@
+Data Quality Summary (Initial Inspection)
+
+1. All 10 datasets loaded successfully.
+
+2. No missing values found in most datasets.
+
+3. 04_monthly_sip_inflows.csv contains 12 missing values in yoy_growth_pct.
+   This appears expected because Year-over-Year growth cannot be calculated for the first 12 months.
+
+4. Date columns are currently stored as string datatype and should be converted to datetime during cleaning.
+
+5. AMFI codes are stored as int64; may be converted to string for consistency during database loading.
+
+6. No obvious structural issues detected.
