@@ -1,3 +1,19 @@
+"""
+Rolling Sharpe Ratio Analysis
+
+Calculates and visualizes rolling Sharpe ratios
+to evaluate the consistency of risk-adjusted
+mutual fund performance over time.
+
+Output:
+- reports/rolling_sharpe_chart.png
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,3 +1,19 @@
+"""
+Investor Cohort Analysis
+
+Groups investors by their first transaction year
+to analyze investment behavior, investor count,
+and total investment contribution by cohort.
+
+Output:
+- reports/cohort_analysis.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
+
 import pandas as pd
 
 # Load transactions
@@ -39,4 +55,3 @@ cohort.to_csv(
 )
 
 print("Cohort Analysis Completed")
-print(cohort)

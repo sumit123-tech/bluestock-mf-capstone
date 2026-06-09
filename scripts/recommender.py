@@ -1,3 +1,22 @@
+"""
+Mutual Fund Recommendation Engine
+
+Generates mutual fund recommendations
+based on investor risk appetite using
+historical returns, Sharpe ratio, and
+expense ratio metrics.
+
+Risk Categories:
+- Low Risk
+- Moderate Risk
+- High Risk
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
+
 import pandas as pd
 
 df = pd.read_csv("data/processed/clean_performance.csv")

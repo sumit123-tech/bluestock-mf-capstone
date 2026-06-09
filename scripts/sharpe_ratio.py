@@ -1,3 +1,18 @@
+"""
+Sharpe Ratio Analysis
+
+Calculates risk-adjusted return for each mutual fund
+using annualized return, volatility, and risk-free rate.
+
+Output:
+- reports/sharpe_values.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
+
 import pandas as pd
 import numpy as np
 
@@ -32,4 +47,3 @@ sharpe_df.to_csv(
 )
 
 print("Sharpe Ratios Calculated Successfully")
-print(sharpe_df.head())

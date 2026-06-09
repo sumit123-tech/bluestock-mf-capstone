@@ -1,3 +1,18 @@
+"""
+Fund Scorecard Builder
+
+Creates a composite mutual fund ranking score
+using CAGR, Sharpe Ratio, Alpha, Expense Ratio,
+and Maximum Drawdown.
+
+Output:
+- reports/fund_scorecard.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
 import pandas as pd
 
 # Load reports
@@ -49,4 +64,3 @@ df.to_csv(
 )
 
 print("Fund Scorecard Created Successfully")
-print(df[["amfi_code", "fund_score"]].head(10))

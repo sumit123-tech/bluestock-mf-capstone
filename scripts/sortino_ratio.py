@@ -1,3 +1,16 @@
+"""
+Sortino Ratio Analysis
+
+Calculates downside risk-adjusted return for each fund
+using negative return volatility.
+
+Output:
+- reports/sortino_values.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
 import pandas as pd
 import numpy as np
 

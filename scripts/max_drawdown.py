@@ -1,3 +1,16 @@
+"""
+Maximum Drawdown Analysis
+
+Calculates the maximum peak-to-trough decline
+for each mutual fund scheme.
+
+Output:
+- reports/max_drawdown.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
 import pandas as pd
 
 nav = pd.read_csv("data/processed/clean_nav.csv")
@@ -29,4 +42,3 @@ max_dd_df.to_csv(
 )
 
 print("Maximum Drawdown Calculated Successfully")
-print(max_dd_df.head())

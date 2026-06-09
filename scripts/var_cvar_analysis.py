@@ -1,3 +1,17 @@
+"""
+VaR and CVaR Analysis
+
+Calculates Value at Risk (VaR) and Conditional Value at Risk (CVaR)
+for mutual fund schemes using historical returns.
+
+Output:
+- reports/var_cvar_report.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
 import pandas as pd
 import numpy as np
 
@@ -30,4 +44,3 @@ var_df.to_csv(
 )
 
 print("VaR and CVaR Report Created Successfully")
-print(var_df.head())

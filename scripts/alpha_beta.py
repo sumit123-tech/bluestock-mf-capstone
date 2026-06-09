@@ -1,3 +1,18 @@
+"""
+Alpha and Beta Analysis
+
+Calculates fund Alpha and Beta against benchmark returns
+to measure benchmark outperformance and market sensitivity.
+
+Output:
+- reports/alpha_beta.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
+
 import pandas as pd
 import numpy as np
 
@@ -55,4 +70,3 @@ alpha_beta_df.to_csv(
 )
 
 print("Alpha Beta Calculation Completed")
-print(alpha_beta_df.head())

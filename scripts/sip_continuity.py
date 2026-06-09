@@ -1,3 +1,18 @@
+"""
+SIP Continuity Analysis
+
+Identifies investors at risk of SIP discontinuation
+by analyzing SIP transaction frequency and
+average gap between SIP transactions.
+
+Output:
+- reports/sip_continuity.csv
+
+Author: Sumit Banerjee
+Project: Mutual Fund Analytics Capstone
+"""
+
+
 import pandas as pd
 
 # Load data
@@ -48,4 +63,3 @@ result_df.to_csv(
 )
 
 print("SIP Continuity Analysis Completed")
-print(result_df.head())
