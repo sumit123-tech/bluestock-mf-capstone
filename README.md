@@ -44,18 +44,17 @@ The project uses 10+ datasets along with live MFAPI integration.
 
 ##  Technology Stack
 
-| Tool       | Purpose               |
-| ---------- | --------------------- |
-| Python     | ETL & Analytics       |
-| Pandas     | Data Processing       |
-| NumPy      | Numerical Analysis    |
-| SciPy      | Statistical Analytics |
-| SQLite     | Data Storage          |
-| SQLAlchemy | Database Integration  |
-| Power BI   | Dashboard Development |
-| GitHub     | Version Control       |
+| Tool | Purpose |
+|------|----------|
+| Python | ETL & Analytics |
+| Pandas | Data Processing |
+| NumPy | Numerical Analysis |
+| SciPy | Statistical Analytics |
+| SQLite | Data Storage |
+| SQLAlchemy | Database Integration |
+| Power BI | Dashboard Development |
+| GitHub | Version Control |
 
----
 
 ##  Project Architecture
 
@@ -185,9 +184,7 @@ bluestock-mf-capstone/
 │   └── processed/
 │
 ├── scripts/
-│
 ├── reports/
-│
 ├── dashboard/
 │   └── bluestock_mf_dashboard.pbix
 │
