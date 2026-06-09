@@ -59,19 +59,19 @@ The project uses 10+ datasets along with live MFAPI integration.
 
 ##  Project Architecture
 
+```text
 Raw CSV Files & APIs
-⬇️
+        ↓
 Python ETL & Data Cleaning
-⬇️
+        ↓
 SQLite Database
-⬇️
+        ↓
 Analytics Engine
-⬇️
+        ↓
 Power BI Dashboard
-⬇️
+        ↓
 Business Insights
-
----
+```
 
 ##  Exploratory Data Analysis (EDA)
 
